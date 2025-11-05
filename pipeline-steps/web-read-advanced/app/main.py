@@ -4,8 +4,10 @@ import sys
 import os
 import json
 from steputil import StepArgs, StepArgsBuilder
-from .auth import get_access_token
-from .crawler import WebCrawler
+
+# Import modules from same directory
+from auth import get_access_token
+from crawler import WebCrawler
 
 
 def main(step: StepArgs):
