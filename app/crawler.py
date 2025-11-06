@@ -9,8 +9,8 @@ from typing import List, Set, Optional
 import requests
 from steputil import StepArgs
 
-from .rate_limiter import RateLimiter
-from .template_resolver import TemplateResolver
+from rate_limiter import RateLimiter
+from template_resolver import TemplateResolver
 
 
 class WebCrawler:
